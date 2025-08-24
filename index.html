@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web開発を学ぶ初心者の自己紹介ページ">
+    <meta name="keywords" content="自己紹介,Web開発,初心者">
+    <title>私のWebサイトへようこそ</title>
+    <style>
+        /* ページ全体のスタイル設定 */
+        body {
+            background-color: #e6f3ff; /* 淡いブルーの背景色 */
+            font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* メインコンテナのスタイル */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+
+        /* タイトルのスタイル */
+        h1 {
+            color: #2c5282;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+        }
+
+        /* 自己紹介テキストのスタイル */
+        .intro {
+            font-size: 1.2em;
+            text-align: center;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+
+        /* セクションのスタイル */
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #2d3748;
+            border-bottom: 2px solid #e6f3ff;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>私のWebサイトへようこそ</h1>
+        
+        <div class="intro">
+            <p>こんにちは！このWebサイトにお越しいただき、ありがとうございます。</p>
+        </div>
+
+        <div class="section">
+            <h2>自己紹介</h2>
+            <p>はじめまして！私はWeb開発を学んでいる初心者です。</p>
+            <p>このサイトは私が作った最初のWebページです。</p>
+            <p>これからもっと素晴らしいサイトを作れるように頑張ります！</p>
+        </div>
+
+        <div class="section">
+            <h2>お気に入り</h2>
+            <p>背景色に使っている淡いブルーが私のお気に入りの色です。</p>
+            <p>落ち着いていて、見やすい色だと思います。</p>
+        </div>
+
+        <div class="section">
+            <h2>今後の予定</h2>
+            <p>これからJavaScriptも学んで、もっとインタラクティブなサイトを作る予定です。</p>
+            <p>どうぞよろしくお願いいたします。</p>
+        </div>
+    </main>
+</body>
+</html>
